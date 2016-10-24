@@ -40,5 +40,8 @@ You can find configuration files example here:
 - [logback-appenders.xml](https://github.com/lightingLYG/fluentd-logback-appender/blob/master/src/main/resources/logback-appenders.xml)
 - [logback.xml](https://github.com/lightingLYG/fluentd-logback-appender/blob/master/src/main/resources/logback.xml)
 
+### changes
+1. You can add "additionalField" while you use FLUENT_TEXT mode.
+
 ### License
 [Apache License, Version 2.0](LICENSE)
