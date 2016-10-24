@@ -1,4 +1,4 @@
-Logback more appenders
+Fluentd Logback Appender
 ==================================================
 You can logging to Fluentd with the logback appender.
 
