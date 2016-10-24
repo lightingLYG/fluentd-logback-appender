@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE logback>
+<configuration>
+
+	<include resource="logback-appenders.xml" />
+
+	<logger name="com.firewarm"
+		level="TRACE">
+		<appender-ref ref="FLUENT_TEXT" />
+	</logger>
+
+	<root>
+		<level value="DEBUG" />
+		<appender-ref ref="STDOUT" />
+	</root>
+
+</configuration>
