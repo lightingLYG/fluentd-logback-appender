@@ -29,7 +29,7 @@ You can logging to Fluentd with the logback appender.
 		<dependency>
 			<groupId>org.fluentd</groupId>
 			<artifactId>fluent-logger</artifactId>
-			<version>${fluentd.logger.version}</version>
+			<version>0.3.2</version>
 			<optional>true</optional>
 		</dependency>
 ```
